@@ -1,0 +1,33 @@
+body {
+    background-color: #1A0000;
+}
+
+h1 {
+	text-align: center;
+	font-size: 75;
+	font-family: Arial;
+	color: white;
+	text-decoration: underline;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30;
+	font-family: Arial;
+	color: white;
+	text-decoration: none;
+}
+
+li {
+	display: inline-block;
+}
+.container {
+    width: 15em;
+    border-color: black;
+    text-align: center;
+    background-color: black;
+}
+
+#center {
+	text-align: center;
+}

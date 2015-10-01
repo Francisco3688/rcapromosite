@@ -1,0 +1,46 @@
+h1 {
+	text-align: center;
+}
+
+body {
+	background-image: url("bg.jpg");
+	background-size: 500px 800px;
+	background-repeat: repeat;
+	background-position: top left;
+background-opacity: .4;
+}
+
+.center {
+	text-align: center;
+}
+
+.big {
+	color: red;
+	font-size: 35px;
+	font-family: Arial;	
+	text-transform: uppercase;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: white;
+    border: 1px solid black;
+    opacity: .9;
+}
+
+li {
+	list-style-type: none ;
+	font-family: Arial;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: arial;
+	text-decoration: underline;
+	font-size: 35px;
+}
+
+h4 {	
+	font-family: arial;
+	font-size: 35px;
+}
