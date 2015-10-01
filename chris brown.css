@@ -6,16 +6,48 @@ h1 {
 	font-family: chiller;
 	}
 
+	.color {
+		color: white;
+		font-family: arial;
+		text-align: center;
+	}
+
 	#background {
 		background: black;
 	}
 
 	.border {
 		border-style: double;
-		border-width: 50px;
+		border-width: 30px;
 		border-color: white;
 		padding: 0px;
 		text-align: center;
 		width: 55%;
+		float: right;
+	}
+
+	.border2 {border-style: double;
+		border-width: 20px;
+		border-color: white;
+		padding: 0px;
+		text-align: center;
+		width: 30%;
 		float: left;
 	}
+
+.center {
+	text-align:center;
+}
+
+li {
+	list-style: none;
+	float: left;
+	width: 100px;
+}
+
+section {
+    width:300px;
+    float:left;
+    padding:0px;	 
+    margin: 10px;
+}
