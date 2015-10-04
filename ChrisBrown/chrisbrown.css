@@ -26,28 +26,39 @@ h1 {
 		float: right;
 	}
 
-	.border2 {border-style: double;
-		border-width: 20px;
-		border-color: white;
-		padding: 0px;
+	#socialMediaDeck {
+		width: 500px;
+		height: 100px;
+		background: black;
+		border: double 10px white;
+		position: absolute;
+		top: 255px;
+		left:0px;
 		text-align: center;
-		width: 30%;
-		float: left;
+		text-transform: uppercase;
+	}
+
+	#MainArea {
+		clear:both;
 	}
 
 .center {
 	text-align:center;
 }
 
-li {
+ul li {
 	list-style: none;
-	float: left;
-	width: 100px;
+	display: inline-block;
+	padding-right: 45px;
 }
 
-section {
+ul li:hover {
+	cursor: hand;
+}
+
+div.video{
     width:300px;
-    float:left;
-    padding:0px;	 
-    margin: 10px;
+   top: 120px;	 
+   float: left;
+   position: relative;
 }
