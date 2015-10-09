@@ -1,34 +1,51 @@
 body {
 	background-image: url("tinasheback.jpg");
 	background-repeat: no-repeat;
-	background-size: 120% 100%;
+	background-position: center;
+	margin: 0;
 }
 
 #logo {
-border: solid 1px black;
-background-color: black;
-width: 44%;
-position: absolute;
-top: 20px;
-left: 30px;
+	padding-top: 210px;
 }
 
 #border {
 	text-align: center;
-	border: solid 5px black;
 	margin-right: 700px;
 	font-family: arial;
-	font-size:20pt;
+	font-size:12pt;
 	color:navy;
+	width: 500px;
 }
 
-h1 {
-	font-size: 40pt;
-	font-family: Arial;
+.head {
+	font-size: 100pt;
+	font-family: arial narrow;
+	color: white;
+	opacity: .85;
 }
 
 .special{
-	font-size: 24pt;
+	font-size: 18pt;
 	font-family: arial;
 	color: navy;
+}
+
+#topBorder {
+	position: absolute;
+	border: solid 1px black;
+	background-color: black;
+	width: 100%;
+	height: 50%;
+	text-align: center;
+}
+
+#bottomBorder {
+	position: absolute;
+	border: solid 1px black;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	bottom: 0px;
 }
